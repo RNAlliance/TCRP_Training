@@ -1,0 +1,6 @@
+_site/*
+MISC/*
+.DS_Store
+.Rproj.user
+*.Rproj
+Data/*
