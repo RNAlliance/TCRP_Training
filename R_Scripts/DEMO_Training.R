@@ -219,7 +219,7 @@
 	
 	TEST_SGP@SGP$Coefficient_Matrices <- DEMO_Cohort_Matrices
 	
-	SGPstateData[["DEMO"]][["DEMO_CONFIGuration"]] <- list(max.order.for.percentile=1)
+	SGPstateData[["DEMO"]][["SGP_Configuration"]] <- list(max.order.for.percentile=1)
 
 	TEST_SGP <- analyzeSGP(TEST_SGP, state='DEMO',
                            content_areas=c("READING", "MATHEMATICS"),
@@ -245,7 +245,7 @@ setnames(TEST_SGP@Data, c('SGP', 'SGP_NORM_GROUP'), c('SGP_1_PRIOR', 'SGP_NORM_G
 	TEST_SGP@SGP$SGPercentiles_1_Prior <- TEST_SGP@SGP$SGPercentiles
 	TEST_SGP@SGP$SGPercentiles <- NULL
 
-	SGPstateData[["DEMO"]][["DEMO_CONFIGuration"]] <- list(max.order.for.percentile=2)
+	SGPstateData[["DEMO"]][["SGP_Configuration"]] <- list(max.order.for.percentile=2)
 
 	TEST_SGP <- analyzeSGP(TEST_SGP, state='DEMO',
                            content_areas=c("READING", "MATHEMATICS"),
@@ -271,7 +271,7 @@ setnames(TEST_SGP@Data, c('SGP', 'SGP_NORM_GROUP'), c('SGP_2_PRIOR', 'SGP_NORM_G
 	TEST_SGP@SGP$SGPercentiles_2_Prior <- TEST_SGP@SGP$SGPercentiles
 	TEST_SGP@SGP$SGPercentiles <- NULL
 
-	SGPstateData[["DEMO"]][["DEMO_CONFIGuration"]] <- list(max.order.for.percentile=3)
+	SGPstateData[["DEMO"]][["SGP_Configuration"]] <- list(max.order.for.percentile=3)
 
 	TEST_SGP <- analyzeSGP(TEST_SGP, state='DEMO',
                            content_areas=c("READING", "MATHEMATICS"),
