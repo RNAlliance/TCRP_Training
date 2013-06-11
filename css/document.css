@@ -402,7 +402,40 @@ blockquote cite.quote-author {
     .caption in "image.less"
 */
 /* code */
-code,
+
+/* Code blocks */
+
+code, pre {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size:14px;
+}
+
+pre, div.meta {
+  padding: 0px 3px;
+  background: #FDFEFB;  
+  border-radius: 4px;
+  border:1px solid #D7D8C8;
+  overflow: auto;
+  overflow-y: hidden;
+  margin-bottom: 12px;
+}
+
+p code, li code {
+  display: inline-block;
+  white-space: no-wrap;
+  background: #fff;
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #555;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -khtml-border-radius: 0.4em;
+  padding: 0px 3px;
+  margin: -1px 0;
+}
+
 .proper-code {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 12px;
