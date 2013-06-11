@@ -168,6 +168,7 @@
 ####
 #########################################################
 
+	SGPstateData[["DEMO"]][["Growth"]][["System_Type"]] <- "Cohort Referenced"
 	SGPstateData[["DEMO"]][["SGP_Norm_Group_Preference"]] <- DEMO_SGP_Norm_Group_Preference
 
 	MY_DEMO_SGP <- combineSGP(MY_DEMO_SGP, state='DEMO')
