@@ -4,3 +4,8 @@ MISC/*
 .Rproj.user
 *.Rproj
 Data/*
+Coefficient_Matrices/*
+R_Scripts/*
+SGP_CONFIG/*
+DEMO_CONFIG/*
+
